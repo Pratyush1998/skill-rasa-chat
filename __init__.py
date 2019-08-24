@@ -26,7 +26,7 @@ class RasaSkill(MycroftSkill):
     def __init__(self):
         super(RasaSkill, self).__init__(name="RasaSkill")
         self.conversation_active = False
-        self.rasa_host = "http://192.168.0.196:5055/"
+        self.rasa_host = "http://192.168.0.196:5005/"
         self.append_endpoint = (
             self.rasa_host + "conversations/mycroft_user/messages?include_events=NONE"
         )
